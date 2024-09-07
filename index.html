@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header>
+        <h1>PORT<span style="color: red;">FOLIO</span></h1>
+        <div class="navbar" id="navbar">
+            <a href="#">Home</a>
+            <a href="#service-section">Services</a>
+            <a href="#portfolio-section">Portfolio</a>
+            <a href="#contact-section">Contact</a>
+        </div>
+        <div class="menu-btn" id="menu-btn" onclick="showMenu()"><i class="fa-solid fa-bars"></i></div>
+    </header>
+
+    <!-- this is second navbar..normally this navbar is hidden -->
+
+    <div class="overlay-navbar" id="overlay-navbar">
+        <i class="fa-solid fa-close" onclick="closeMenu()"></i>
+        <div class="vertical-nav">
+            <a href="#">Home</a>
+            <a href="#service-section">Services</a>
+            <a href="#portfolio-section">Portfolio</a>
+            <a href="#contact-section">Contact</a>
+        </div>
+    </div>
+
+    <!-- banner -->
+
+    <div class="banner">
+        <div class="banner-text">
+            Web Developer<br>Hi, I'm <span style="color: red;">KANNAN</span> <br> FRONT-END DEVELOPER
+        </div>
+    </div>
+
+    <!-- about -->
+
+    <div class="about-section">
+
+        <div class="image">
+            <img
+                src="https://images.unsplash.com/photo-1494607239400-ff147da48308?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2059">
+        </div>
+
+        <div class="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quia impedit voluptatibus corrupti
+                dolore, dignissimos fuga aspernatur a laudantium tempora quos alias, praesentium vel doloremque magni?
+                Neque ratione harum dolores!1</p>
+            <div class="about-boxes">
+                <div class="box1">
+                    <h3>Skills</h3>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JS</p>
+                </div>
+
+                <div class="box2">
+                    <h3>Courses & Internship</h3>
+                    <p>Web Technology</p>
+                    <p>NLC India Limited</p>
+                </div>
+
+                <div class="box3">
+                    <h3>Education</h3>
+                    <p>BE</p>
+                    <p>HSC</p>
+                    <p>SSC</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- service -->
+
+    <div class="service-section" id="service-section">
+
+        <h1 class="title">SERVICES</h1>
+        <div class="container">
+
+
+            <div class="service-boxes">
+                <div class="service-box1">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officia consequuntur quod harum
+                        vitae
+                        beatae
+                        sunt voluptate illum omnis optio eaque id distinctio, laboriosam accusantium voluptas culpa,
+                        quas
+                        blanditiis
+                        facilis?</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="service-box2">
+                    <i class="fa-solid fa-file"></i>
+                    <h2>Front-End</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officia consequuntur quod harum
+                        vitae
+                        beatae
+                        sunt voluptate illum omnis optio eaque id distinctio, laboriosam accusantium voluptas culpa,
+                        quas
+                        blanditiis
+                        facilis?</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="service-box3">
+                    <i class="fa-brands fa-google"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officia consequuntur quod harum
+                        vitae
+                        beatae
+                        sunt voluptate illum omnis optio eaque id distinctio, laboriosam accusantium voluptas culpa,
+                        quas
+                        blanditiis
+                        facilis?</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio section -->
+
+    <div class="portfolio-section" id="portfolio-section">
+
+        <h1 class="title">PORTFOLIO</h1>
+
+        <div class="portfolio-boxes">
+
+            <div class="portfolio-box1">
+                <img src="https://media.istockphoto.com/id/1305999733/photo/web-design-desktop.jpg?s=1024x1024&w=is&k=20&c=KTPA-Mnyww2JxGK3E-R0NI3jh8_tSlyELUcUFSdEim4="
+                    alt="">
+                <div class="desc">
+                    <h2>Social Media App</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quos.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box2">
+                <img src="https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070"
+                    alt="">
+                <div class="desc">
+                    <h2>Social Media App</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quos.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box3">
+                <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070"
+                    alt="">
+                <div class="desc">
+                    <h2>Social Media App</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quos.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- contact section -->
+
+    <div class="contact-section" id="contact-section">
+
+        <h1 class="title">CONTACT</h1>
+
+        <div class="contact-form">
+
+            <div class="contact-boxes">
+                <div class="contact-details">
+                    <p><i class="fa-solid fa-envelope"></i> kannansiva0910@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9025799171</p>
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <a href="https://tomato-carleen-36.tiiny.site/" download="">Download CV</a>
+                </div>
+            </div>
+
+            <form>
+                <div>
+                    <input type="text" placeholder="Your Name">
+                </div>
+                <div>
+                    <input type="email" placeholder="Your E-mail">
+                </div>
+                <textarea name="" rows="5" placeholder="Your Message"></textarea>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <footer>Copyright &copy Kannan</footer>
+
+    <script>
+        function showMenu() {
+            document.getElementById("overlay-navbar").style = "display:block";
+        }
+        function closeMenu() {
+            document.getElementById("overlay-navbar").style = "display:none";
+        }
+    </script>
+
+</body>
+
+</html>
